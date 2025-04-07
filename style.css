@@ -115,13 +115,12 @@ select {
     font-size: 14px;
     color: #fff;
     border: none;
-    margin-bottom: 60px 0px;
+    margin-bottom: 60px;
 }
 
 .line {
     /* Стили для линии */
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0px;
 }
 
 table {
