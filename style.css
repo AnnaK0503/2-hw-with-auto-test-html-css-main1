@@ -5,7 +5,10 @@
     box-sizing: border-box;
 }
 
-body {}
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
 
 header {
     /* Стили для хедера */
@@ -15,7 +18,6 @@ header {
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
-    font-family: "Inter", sans-serif;
     color: #fff;
 }
 
@@ -29,19 +31,15 @@ header span {
 
 .main-title {
     /* Стили для заголовка в первой секции */
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 20px;
 }
 
 .main-text {
     /* Стили для текста в первой секции */
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
 }
 
 .main-image {
@@ -60,20 +58,17 @@ header span {
 select {
     /* Стили для выпадающего списка */
     width: 150px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     background: url(./assens/images/ep_arrow-down.svg) no-repeat right 15px top 50%;
     appearance: none;
+    padding: 9px 12px;
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
     margin-bottom: 25px;
 }
 
@@ -81,27 +76,21 @@ select {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url(./assens/images/solar_map-arrow-up-bold.svg);
     padding-left: 20px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     padding-left: 20px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
 }
 
 .label {
     /* Стили для подписей чекбоксов */
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
 }
 
 .text-field {
@@ -109,10 +98,10 @@ select {
     width: 330px;
     border: 1px solid #303030;
     border-radius: 5px;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: rgba(48, 48, 48, 0.2);
+    padding: 9px 12px;
 
 }
 
@@ -122,7 +111,6 @@ select {
     width: 125px;
     height: 36px;
     background: #2965f1;
-    font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #fff;
@@ -140,10 +128,8 @@ table {
     /* Стили для таблицы */
     border-collapse: collapse;
     border: 1px solid #303030;
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #303030;
 }
 
 th, td {
@@ -155,8 +141,14 @@ th, td {
 
 footer {
     /* Стили для футера */
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 27px 0;
 }
 
 .footer-link {
     /* Стили для футера */
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
 }
