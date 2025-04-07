@@ -1,11 +1,18 @@
 * {
     /* Свойства для сброса начальных стилей элементов */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 body {}
 
 header {
     /* Стили для хедера */
+    background-color: #2965f1;
+    padding: 23px 0;
+    font-family: "Inter", sans-serif;
+    color: #fff;
 }
 
 header span {
